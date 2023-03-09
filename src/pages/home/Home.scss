@@ -1,0 +1,67 @@
+.home {
+  .features {
+    background-color: #8accab;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+
+    .container {
+      width: 1400px;
+      display: flex;
+      align-items: center;
+      gap: 200px;
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        &:first-child {
+          flex: 2;
+        }
+        &:last-child {
+          flex: 3;
+        }
+
+        img {
+          width: 100%;
+        }
+        h1 {
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+        .title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-weight: 700;
+          font-size: 18px;
+          color: black;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+          color: black;
+          line-height: 28px;
+          letter-spacing: 1px;
+          padding-left: 2em;
+        }
+
+        video {
+          width: 720px;
+        }
+      }
+    }
+  }
+}
+
+.homeTitle {
+  width: 1024px;
+  font-size: 2em;
+  color: #1e4617;
+  font-weight: 800;
+  padding: 1em, 0;
+  margin-top: 1em;
+}

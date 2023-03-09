@@ -1,0 +1,130 @@
+export const cards = [
+  {
+    id: 1,
+    title: "Class C",
+    desc: "Car",
+    img: "https://images.unsplash.com/photo-1591363748916-d7f3f2df01b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80",
+  },
+  {
+    id: 2,
+    title: "Class LR",
+    desc: "Light Rigid",
+    img: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+  },
+  {
+    id: 3,
+    title: "Class MR ",
+    desc: "Medium Rigid",
+    img: "https://images.unsplash.com/photo-1591419478162-a4dd21b7ec0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  },
+  {
+    id: 4,
+    title: "Class HR",
+    desc: "Heavy Rigid",
+    img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  },
+  {
+    id: 5,
+    title: "Class HC",
+    desc: "Heavy Combination",
+    img: "https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1089&q=80",
+  },
+  {
+    id: 6,
+    title: "Class MC",
+    desc: "Multicombination",
+    img: "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+  },
+  {
+    id: 7,
+    title: "Class R",
+    desc: "Motorcycle",
+    img: "https://images.unsplash.com/photo-1588925762549-c414056c4d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80",
+  },
+  {
+    id: 8,
+    title: "RMDL",
+    desc: "Recreational Marine Driver Licence",
+    img: "https://images.unsplash.com/photo-1564633351631-e85bd59a91af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1148&q=80",
+  },
+  {
+    id: 9,
+    title: "PWCL",
+    desc: "Personal Watercraft Licence ",
+    img: "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1144&q=80",
+  },
+];
+
+export const schools = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1610768207795-72169abdf0d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    pp: "https://images.unsplash.com/photo-1677397259005-174a2a24f46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    school: "Amani Driving School",
+    instructor: "Albert Ndagije",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1515777315835-281b94c9589f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1212&q=80",
+    pp: "https://images.unsplash.com/photo-1677509537840-20ea56137081?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    school: "Oxenford Driving School",
+    instructor: "Jiscard Emertus",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1586191552066-d52dd1e3af86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80",
+    pp: "https://images.unsplash.com/photo-1678136270956-52c8ac36228c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    school: "Pimpama Driving School",
+    instructor: "Sepa Manudi",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1572634301997-be5ff11aa3b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    pp: "https://images.unsplash.com/photo-1678101629507-10cb3ba27fd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    school: "Gasabo Driving School",
+    instructor: "Christiane Nshimiye",
+  },
+  {
+    id: 5,
+    img: "https://plus.unsplash.com/premium_photo-1670650046087-df3137ea9fc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    pp: "https://images.unsplash.com/photo-1677397258981-a8e26984a7ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    school: "Fatuma Driving School",
+    instructor: "Desire Karangirwa",
+  },
+  {
+    id: 6,
+    img: "https://images.unsplash.com/photo-1588636142475-a62d56692870?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80",
+    pp: "https://images.unsplash.com/photo-1624655007001-65a0d6298853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    school: "Paddington Driving School",
+    instructor: "Pam Ngenzi",
+  },
+  {
+    id: 7,
+    img: "https://images.unsplash.com/photo-1559289431-9f12ee08f8b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    pp: "https://images.unsplash.com/photo-1677261905060-7a93f54682fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
+    school: "Tamborini Driving School",
+    instructor: "Sisolo Ruthuli",
+  },
+  {
+    id: 8,
+    img: "https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    pp: "https://images.unsplash.com/photo-1677269938489-f8208c778f30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    school: "Brizzy Driving School",
+    instructor: "Abdlah Yahaya",
+  },
+  {
+    id: 9,
+    img: "https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
+    pp: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    school: "Marsden Driving School",
+    instructor: "Robert Kalim",
+  },
+  {
+    id: 10,
+    img: "https://images.unsplash.com/photo-1505867798796-639ec7e8cdf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    pp: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    school: "Logan Martime School",
+    instructor: "James Hamad",
+  },
+];
+

@@ -19,7 +19,9 @@ function App() {
     return (
       <div className="app">
         <Navbar />
-        <Outlet />
+        <div className="homeContainer">
+          <Outlet />
+        </div>
         <Footer />
       </div>
     );

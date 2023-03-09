@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className={active || pathname !== "/" ? "navbar active" : "navbar"}>
             <div className="container">
                 <Link className="logoBox link" to="/">
-                    <img className="logo" src="logo.png" alt="Driving School App Logo" />
+                    <img className="logo" src="images/logo.png" alt="Driving School App Logo" />
                 </Link>
                 <div className="links">
                     <span>Explore</span>
@@ -40,7 +40,7 @@ const Navbar = () => {
                     {currentUser ? (
                         <div className="user" onClick={() => setOpen(!open)}>
                             <img
-                                src="./pp1.jpg"
+                                src="images/pp1.jpg"
                                 alt="profile picture"
                             />
                             <span>{currentUser?.username}</span>
@@ -81,16 +81,19 @@ const Navbar = () => {
                     <hr />
                     <div className="menu">
                         <Link className="link menuLink" to="/">
-                            LR Light rigid
+                            C. Car
                         </Link>
                         <Link className="link menuLink" to="/">
-                            MR Medium rigid
+                            LR. Light Rigid
                         </Link>
                         <Link className="link menuLink" to="/">
-                            HR Heavy rigid
+                            MR. Medium Rigid
                         </Link>
                         <Link className="link menuLink" to="/">
-                            Motorcycles R
+                            HR. Heavy Rigid
+                        </Link>
+                        <Link className="link menuLink" to="/">
+                            R. Motorcycles
                         </Link>
                     </div>
                     <hr />

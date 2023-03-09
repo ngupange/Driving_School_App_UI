@@ -38,7 +38,7 @@ const Header = () => {
                 </div>
                 <div className="search">
                     <div className="searchInput">
-                        <img src="./search.png" alt="" />
+                        <img src="images/search.png" alt="" />
                         <input type="text" placeholder='Search by Post Code"' />
                     </div>
                     <button>Search</button>
