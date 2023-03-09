@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ASchool() {
+function Session() {
     return (
         <div>ASchool</div>
     )
 }
 
-export default ASchool
+export default Session

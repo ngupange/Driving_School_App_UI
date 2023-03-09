@@ -56,7 +56,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <h1 className="homeTitle">Top rated classes</h1>
+            <h1 className="homeTitle">Top Rated Instructor</h1>
             <Slide slidesToShow={4} arrowsScroll={4}>
                 {schools.map((card) => (
                     <SchoolCard key={card.id} card={card} />

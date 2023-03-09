@@ -4,8 +4,8 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
-import SchoolList from "./pages/schoolList/SchoolList";
-import ASchool from "./pages/school/ASchool";
+import Sessions from "./pages/sessions/Sessions";
+import Session from "./pages/session/Session";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import AddSchool from "./pages/addSchool/AddSchool";
@@ -63,13 +63,13 @@ function App() {
         },
         {
           // A Single Driving School
-          path: "/school/:id",
-          element: <ASchool />,
+          path: "/session/:id",
+          element: <Session />,
         },
         {
-          // List of Driving schools
-          path: "/schools",
-          element: <SchoolList />,
+          // List of classes / sessions
+          path: "/sessions",
+          element: <Sessions />,
         },
       ],
     },
