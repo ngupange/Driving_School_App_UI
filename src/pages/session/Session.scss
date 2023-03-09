@@ -172,15 +172,16 @@
               border-radius: 50%;
             }
 
-            .country {
+            .username {
+              font-weight: 700;
+              color: #054d2b;
+            }
+
+            .userfrom {
               display: flex;
               align-items: center;
               gap: 10px;
               color: gray;
-
-              img {
-                width: 20px;
-              }
             }
           }
 

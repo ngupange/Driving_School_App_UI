@@ -108,13 +108,10 @@ function Session() {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <span>Garner David</span>
-                                    <div className="country">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1563698876759-5388be71113b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                                            alt=""
-                                        />
-                                        <span>United States</span>
+                                    <span className="username">David Leonce</span>
+                                    <div className="userfrom">
+                                        <span>Brisbane</span>
+                                        <span>QLD</span>
                                     </div>
                                 </div>
                             </div>
@@ -146,13 +143,10 @@ function Session() {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <span>Sidney Owen</span>
-                                    <div className="country">
-                                        <img
-                                            src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1e9-1f1ea.png"
-                                            alt=""
-                                        />
-                                        <span>Germany</span>
+                                    <span className="username">Sheidan Shuklan</span>
+                                    <div className="userfrom">
+                                        <span>Townsville </span>
+                                        <span>QLD</span>
                                     </div>
                                 </div>
                             </div>
@@ -184,13 +178,10 @@ function Session() {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <span>Lyle Giles </span>
-                                    <div className="country">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1563698876759-5388be71113b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                                            alt=""
-                                        />
-                                        <span>United States</span>
+                                    <span className="username">Fils Abewe</span>
+                                    <div className="userfrom">
+                                        <span>Logan</span>
+                                        <span>QLD</span>
                                     </div>
                                 </div>
                             </div>
