@@ -6,9 +6,10 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Sessions from "./pages/sessions/Sessions";
 import Session from "./pages/session/Session";
+import AddSession from "./pages/addSession/AddSession";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import AddSchool from "./pages/addSchool/AddSchool";
+import AddSchool from "./pages/addSession/AddSession";
 import Bookings from "./pages/bookings/Bookings";
 import Messages from "./pages/messages/Messages";
 import Message from "./pages/message/Message";
@@ -60,6 +61,12 @@ function App() {
           // List of classes / sessions
           path: "/sessions",
           element: <Sessions />,
+        },
+
+
+        {
+          path: "/add",
+          element: <AddSession />,
         },
 
         // Bookings endpoints (Admin / Instructor / User)
