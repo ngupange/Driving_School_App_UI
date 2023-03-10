@@ -37,17 +37,17 @@ function Sessions() {
                     <div className="right">
                         <span className="sortBy">Sort by</span>
                         <span className="sortType">
-                            {sort === "sales" ? "Best Selling" : "Newest"}
+                            {sort === "sales" ? "Best Selling" : "Rating"}
                         </span>
                         <img src="./images/down.png" alt="" onClick={() => setOpen(!open)} />
                         {open && (
                             <div className="rightMenu">
                                 {sort === "sales" ? (
-                                    <span onClick={() => reSort("createdAt")}>Newest</span>
+                                    <span onClick={() => reSort("createdAt")}>Rating</span>
                                 ) : (
                                     <span onClick={() => reSort("sales")}>Best Selling</span>
                                 )}
-                                <span onClick={() => reSort("sales")}>Popular</span>
+                                <span onClick={() => reSort("location")}>Suburb</span>
                             </div>
                         )}
                     </div>
