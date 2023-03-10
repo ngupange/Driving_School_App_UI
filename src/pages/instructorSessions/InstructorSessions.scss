@@ -42,6 +42,15 @@
             border-radius: 50%;
           }
 
+          .menu {
+            display: flex;
+            justify-content: center;
+            text-decoration: underline;
+            color: black;
+            font-weight: 500;
+            cursor: pointer;
+          }
+
           .delete {
             width: 20px;
             cursor: pointer;

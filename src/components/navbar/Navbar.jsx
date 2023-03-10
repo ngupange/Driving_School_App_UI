@@ -50,8 +50,8 @@ const Navbar = () => {
                                         <Link className="link" to="/insessions?instructor=currentuser">
                                             My Sessions
                                         </Link>
-                                        <Link className="link" to="/school/:id">
-                                            View My School
+                                        <Link className="link" to="/add">
+                                            Create a Session
                                         </Link>
                                     </>
                                 )}

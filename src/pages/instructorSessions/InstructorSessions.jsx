@@ -30,10 +30,11 @@ function InstructorSessions() {
                         <th>Price</th>
                         <th>Start</th>
                         <th>End</th>
-                        <th>Vehicle Type</th>
+                        <th>Car Type</th>
                         <th>Car Image</th>
                         <th>Instructor</th>
                         <th>Image</th>
+                        <th>Status</th>
                         <th>Action</th>
                     </tr>
                     <tr>
@@ -59,8 +60,9 @@ function InstructorSessions() {
                                 alt=""
                             />
                         </td>
+                        <td>Active</td>
                         <td>
-                            <img className="delete" src="./images/delete.png" alt="" />
+                            <span className='menu'>Menu</span>
                         </td>
                     </tr>
 
@@ -87,8 +89,9 @@ function InstructorSessions() {
                                 alt=""
                             />
                         </td>
+                        <td>Active</td>
                         <td>
-                            <img className="delete" src="./images/delete.png" alt="" />
+                            <span className='menu'>Menu</span>
                         </td>
                     </tr>
 
@@ -115,8 +118,9 @@ function InstructorSessions() {
                                 alt=""
                             />
                         </td>
+                        <td>Off</td>
                         <td>
-                            <img className="delete" src="./images/delete.png" alt="" />
+                            <span className='menu'>Menu</span>
                         </td>
                     </tr>
                 </table>
