@@ -3,12 +3,6 @@ import { Link } from "react-router-dom";
 import "./Messages.scss";
 
 const Messages = () => {
-  const currentUser = {
-    id: 1,
-    username: "Anna",
-    isSeller: true,
-  };
-
   const message = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
   maxime cum corporis esse aspernatur laborum dolorum? Animi
   molestias aliquam, cum nesciunt, aut, ut quam vitae saepe repellat
@@ -23,7 +17,7 @@ const Messages = () => {
         <table>
           <thead>
             <tr>
-              <th>{currentUser.isSeller ? "Buyer" : "Seller"}</th>
+              <th>Sender</th>
               <th>Last Message</th>
               <th>Date</th>
               <th>Action</th>
