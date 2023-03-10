@@ -47,7 +47,7 @@ const Navbar = () => {
                             {open && <div className="options">
                                 {currentUser.isInstructor && (
                                     <>
-                                        <Link className="link" to="/mysessions">
+                                        <Link className="link" to="/insessions?instructor=currentuser">
                                             My Sessions
                                         </Link>
                                         <Link className="link" to="/school/:id">

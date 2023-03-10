@@ -12,7 +12,7 @@ import AddSchool from "./pages/addSchool/AddSchool";
 import Bookings from "./pages/bookings/Bookings";
 import Messages from "./pages/messages/Messages";
 import Message from "./pages/message/Message";
-import MySessions from "./pages/mySessions/MySessions";
+import InstructorSessions from "./pages/instructorSessions/InstructorSessions";
 
 function App() {
   const Layout = () => {
@@ -36,16 +36,43 @@ function App() {
           path: "/",
           element: <Home />,
         },
+
+        // Sessions endpoints (Admin only / Instructor)
+        //**********************************************
+
         {
-          // List of bookings you made (Student / learner / User)
-          path: "/mysessions",
-          element: <MySessions />,
+          // List of bookings customers made to you (List of all sessions)
+          path: "/insessions",
+          element: <InstructorSessions />,
+        },
+        /* We will have something like this in future for each instructor
+             
+           <Link to="/insessions?instructor=currentuser">
+
+       */
+
+        {
+          // A Single Driving School
+          path: "/session/:id",
+          element: <Session />,
         },
         {
-          // Owner --- Instructor --- Requested by students
+          // List of classes / sessions
+          path: "/sessions",
+          element: <Sessions />,
+        },
+
+        // Bookings endpoints (Admin / Instructor / User)
+        //********************************************** 
+        {
+          // List of bookings user made
           path: "/bookings",
           element: <Bookings />,
         },
+
+
+        // Messages endpoints (Admin and authenticated user)
+        //**********************************************
         {
           // Inbox ... List of messages
           path: "/messages",
@@ -61,16 +88,7 @@ function App() {
           path: "/addschool",
           element: <AddSchool />,
         },
-        {
-          // A Single Driving School
-          path: "/session/:id",
-          element: <Session />,
-        },
-        {
-          // List of classes / sessions
-          path: "/sessions",
-          element: <Sessions />,
-        },
+
       ],
     },
     {
